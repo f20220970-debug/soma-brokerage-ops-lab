@@ -1,0 +1,143 @@
+{
+ "funnel": {
+  "leads": 60000,
+  "contacted": 33761,
+  "applied": 18395,
+  "quoted": 15854,
+  "bound": 9067
+ },
+ "unit_economics": {
+  "Marketplace": {
+   "cac": 387.64,
+   "ltv": 1470.85,
+   "ltv_to_cac": 3.79,
+   "payback_months": 16.56,
+   "lead_to_bind_pct": 10.32
+  },
+  "Organic / SEO": {
+   "cac": 44.52,
+   "ltv": 1450.72,
+   "ltv_to_cac": 32.59,
+   "payback_months": 1.93,
+   "lead_to_bind_pct": 17.97
+  },
+  "Outbound": {
+   "cac": 277.9,
+   "ltv": 1445.9,
+   "ltv_to_cac": 5.2,
+   "payback_months": 12.08,
+   "lead_to_bind_pct": 7.92
+  },
+  "Paid search": {
+   "cac": 362.11,
+   "ltv": 1461.39,
+   "ltv_to_cac": 4.04,
+   "payback_months": 15.57,
+   "lead_to_bind_pct": 15.19
+  },
+  "Partner referral": {
+   "cac": 119.37,
+   "ltv": 1460.5,
+   "ltv_to_cac": 12.24,
+   "payback_months": 5.13,
+   "lead_to_bind_pct": 25.13
+  }
+ },
+ "speed_to_lead": {
+  "bind_pct_by_first_response": {
+   "<5 min": 18.54,
+   "5-60 min": 16.57,
+   "1-4 h": 13.56,
+   ">4 h": 12.7
+  },
+  "bound_now": 9204,
+  "bound_ai_first_response": 10465,
+  "commission_now": 2563133,
+  "commission_ai": 2945272,
+  "after_hours_share": 37.8,
+  "after_hours_median_wait_h": 4.5
+ },
+ "carrier_routing": {
+  "random": {
+   "quote_rate": 86.2,
+   "avg_quotes": 1.41,
+   "median_days_to_first_quote": 2.29,
+   "bind_rate": 49.3,
+   "commission": 2524506
+  },
+  "appetite": {
+   "quote_rate": 95.9,
+   "avg_quotes": 1.92,
+   "median_days_to_first_quote": 1.83,
+   "bind_rate": 60.7,
+   "commission": 3149497
+  }
+ },
+ "renewals": {
+  "policies": 9067,
+  "renewal_rate": 80.9,
+  "review_vs_no_review": [
+   84.3,
+   77.5
+  ],
+  "review_lift_pts_95ci": [
+   5.2,
+   8.4
+  ],
+  "renewal_by_rate_change": {
+   "<5%": 87.9,
+   "5-10%": 85.3,
+   "10-15%": 78.7,
+   ">15%": 62.1
+  }
+ },
+ "ai_triage": {
+  "threshold": 0.8,
+  "familiar_wording": {
+   "messages": 2400,
+   "rules_accuracy": 67.9,
+   "model_accuracy": 98.5,
+   "automated_pct": 87.8,
+   "auto_accuracy_pct": 99.9,
+   "claim_recall_pct": 92.9,
+   "claim_recall_with_guardrail_pct": 100.0,
+   "accuracy_on_mixed_intent_msgs": 87.0
+  },
+  "new_wording": {
+   "messages": 1538,
+   "rules_accuracy": 47.8,
+   "model_accuracy": 29.1,
+   "automated_pct": 4.9,
+   "auto_accuracy_pct": 0.0,
+   "claim_recall_pct": 44.6,
+   "claim_recall_with_guardrail_pct": 100.0
+  },
+  "threshold_sweep_familiar": [
+   {
+    "threshold": 0.5,
+    "automated_pct": 93.2,
+    "auto_accuracy_pct": 98.6
+   },
+   {
+    "threshold": 0.7,
+    "automated_pct": 90.4,
+    "auto_accuracy_pct": 99.8
+   },
+   {
+    "threshold": 0.8,
+    "automated_pct": 87.8,
+    "auto_accuracy_pct": 99.9
+   },
+   {
+    "threshold": 0.9,
+    "automated_pct": 84.7,
+    "auto_accuracy_pct": 100.0
+   },
+   {
+    "threshold": 0.95,
+    "automated_pct": 82.7,
+    "auto_accuracy_pct": 100.0
+   }
+  ]
+ }
+}
